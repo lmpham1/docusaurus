@@ -356,15 +356,15 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
+            type: 'docSidebar',
             position: 'left',
-            docId: 'introduction',
+            id: 'docs',
             label: 'Docs',
           },
           {
-            type: 'doc',
+            type: 'docSidebar',
             position: 'left',
-            docId: 'cli',
+            id: 'api',
             label: 'API',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
